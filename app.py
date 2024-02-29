@@ -11,5 +11,3 @@ def index():
         return render_template('index.html', music_recommendations=music_recommendations)
     return render_template('index.html')
 
-if __name__ == '__main__':
-    app.run()
